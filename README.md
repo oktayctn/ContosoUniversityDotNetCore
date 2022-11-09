@@ -1,6 +1,7 @@
 ## Proje 1
 - Dotnet SDK 6'yı base image alarak, içinde fortify yüklü bir imaj yaratın.
-- Bu imaj çağırıldığında, aşağıdaki gibi sonuç vermeli.
+- Yaratılan imajı <dockerhub kullanıcı ismi>/fortify:dotnet ismiyle dockerhub'a yükleyip, private'a çekin.
+- Bu imaj içinden fortify çağırıldığında, aşağıdaki gibi sonuç vermeli. 
 
 ```
 docker run --rm -it furkant/fortify:dotnet /opt/Fortify/Fortify_SCA_and_Apps_22.1.1/bin/sourceanalyzer
