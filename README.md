@@ -1,17 +1,17 @@
-# ContosoUniversity on ASP.NET Core with .NET Core
+## Proje 1
+- Dotnet SDK 6'yı base image alarak, içinde fortify yüklü bir imaj yaratın.
+- Bu imaj çağırıldığında, aşağıdaki gibi sonuç vermeli.
 
-Contoso University, the way I would write it.
+```
+docker run --rm -it furkant/fortify:dotnet /opt/Fortify/Fortify_SCA_and_Apps_22.1.1/bin/sourceanalyzer
 
-To run, create a database "ContosoUniversity" and run the SchemaAndData.sql script against it. Modify the connection string in appsettings and go!
+Fortify Static Code Analyzer 22.1.1.0017
+Copyright (c) 2003-2022 Micro Focus or one of its affiliates
 
-## Things demonstrated
+For command-line help, type 'sourceanalyzer -h'
+```
 
-- CQRS and MediatR
-- AutoMapper
-- Feature folders and vertical slices
-- HtmlTags
-- Entity Framework Core
 
-## How to run
+## Proje 2
 
-First run the build script (Build.ps1). This will set up the local database using RoundhousE. Open the solution and run!
+
