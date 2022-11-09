@@ -14,6 +14,7 @@ For command-line help, type 'sourceanalyzer -h'
 
 
 ## Proje 2
+- Bu projeyi kendi github kullanıcınızla fork'layın.
 - Bir centos sunucuya github worker'ı kurun.
 - İstediğimiz komutlar daha önce yarattığımız docker imajı içinde çalışacak şekilde bir github pipeline'ı hazırlayın.
 - Bu pipeline içine proje dosyalarını çekin ve fortify'la tarayın.
