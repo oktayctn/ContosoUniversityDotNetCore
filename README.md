@@ -4,7 +4,7 @@
 - Bu imaj içinden fortify çağırıldığında, aşağıdaki gibi sonuç vermeli. 
 
 ```
-docker run --rm -it furkant/fortify:dotnet /opt/Fortify/Fortify_SCA_and_Apps_22.1.1/bin/sourceanalyzer
+docker run --rm -it <dockerhub kullanıcı ismi>/fortify:dotnet /opt/Fortify/Fortify_SCA_and_Apps_22.1.1/bin/sourceanalyzer
 
 Fortify Static Code Analyzer 22.1.1.0017
 Copyright (c) 2003-2022 Micro Focus or one of its affiliates
