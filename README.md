@@ -1,5 +1,5 @@
 ## Proje 1
-- Dotnet SDK 6'yı base image alarak, içinde fortify yüklü bir imaj yaratın.
+- Dotnet SDK 6'yı base image alarak, içinde sadece fortify yüklü, bu pronin dosyaları içinde olmayacak şekilde bir imaj yaratın.
 - Yaratılan imajı <dockerhub kullanıcı ismi>/fortify:dotnet ismiyle dockerhub'a yükleyip, private'a çekin.
 - Bu imaj içinden fortify çağırıldığında, aşağıdaki gibi sonuç vermeli. 
 
