@@ -16,7 +16,8 @@ For command-line help, type 'sourceanalyzer -h'
 ## Proje 2
 - Bu projeyi kendi github kullanıcınızla fork'layın.
 - Lokalde bir sunucuya github worker'ı kurun.
-- İstediğimiz komutlar daha önce yarattığımız docker imajı içinde çalışacak şekilde bir github pipeline'ı hazırlayın.
+- İstediğimiz komutlar daha önce yarattığımız docker imajı içinde çalışacak şekilde, bir github pipeline'ı hazırlayın.
+  https://docs.github.com/en/actions/using-jobs/running-jobs-in-a-container (container içinde çalıştırma örnek yml)
 - Bu pipeline içine proje dosyalarını çekin ve fortify'la tarayın.
 - Çıkan sonucu otomatik olarak, ssc'ye yükleyin. Token veya password yml dosyasında hardcoded olmamalı.
 
